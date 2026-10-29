@@ -1,0 +1,30 @@
+#search-form {
+    display: flex;
+    flex-direction: center;
+    align-items: center;
+    justify-content: center;
+
+}
+
+h1,h2,h3 {
+    line-height: 1.2
+}
+
+fieldset {
+    border: none;
+}
+
+.container {
+    display: flex;
+    flex-direction: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn {
+    display: flex;
+    flex-direction: center;
+    align-items: center;
+    justify-content: center;
+}
+ 

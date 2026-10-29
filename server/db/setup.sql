@@ -1,4 +1,4 @@
-DROP TABLE if EXISTS country;
+DROP TABLE IF EXISTS country;
 
 CREATE TABLE country (
     country_id INT GENERATED ALWAYS AS IDENTITY,
@@ -11,7 +11,7 @@ CREATE TABLE country (
     PRIMARY KEY (country_id)
 );
 
--- NOT NULL is used to prevent the field from beign empty
+-- NOT NULL is used to prevent the field from being empty
 INSERT INTO country (name, capital, population, languages, fun_fact, map_image_url)
 VALUES
 ('Brazil', 'Brasília', 212559417, 'Portuguese', 'Brazil is the fifth largest country in the world by both land area and population.', 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Flag_of_Brazil.svg/1200px-Flag_of_Brazil.svg.png'),
@@ -23,3 +23,5 @@ VALUES
   ('Japan', 'Tokyo', 126860301, 'Japanese', 'Japan is home to the world''s largest fish market, Tsukiji Market.', 'https://upload.wikimedia.org/wikipedia/en/thumb/9/9e/Flag_of_Japan.svg/1200px-Flag_of_Japan.svg.png'),
   ('South Africa', 'Pretoria', 57779622, 'Afrikaans, English, Zulu, Xhosa, and others', 'South Africa has 11 official languages.', 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Flag_of_South_Africa.svg/1200px-Flag_of_South_Africa.svg.png'),
   ('Australia', 'Canberra', 24982688, 'English', 'Australia is the only country that is also a continent.', 'https://upload.wikimedia.org/wikipedia/en/thumb/8/88/Flag_of_Australia.svg/1200px-Flag_of_Australia.svg.png');
+
+
